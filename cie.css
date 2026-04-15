@@ -17,6 +17,19 @@ padding:0px;
 font-family:"georgia";
 margin:0px;
 }
+@media (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .container {
+    flex-direction: column;
+  }
+
+  h1 {
+    font-size: 20px;
+  }
+}
 .p {
 padding:0px;
 margin:0px;
